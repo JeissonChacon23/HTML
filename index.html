@@ -6,75 +6,22 @@
 	<title>Home</title>
 </head>
 <body>
-	<select>
-		<option>Option 1</option>
-		<option>Option 2</option>
-		<option>Option 3</option>
-	</select><br><br><br>
-
-	<form>
-		<select>
-			<option>Option 1</option>
-			<option>Option 2</option>
-		</select>
-	</form><br><br><br>
-
-	<form>
-		<select name="color">
-			<option>Red</option>
-			<option>Blue</option>
-		</select>
-	</form><br><br><br>
-
-	<select id="dropdown">
-		<option value="r">Red</option>
-		<option value="g">Green</option>
-		<option value="b">Blue</option>
-	</select><br><br><br>
-
-	<form>
-		<select>
-			<option value="cat">Opt 1</option>
-			<option value="dog">Opt 2</option>
-		</select>
-	</form><br><br><br>
-
-	<select name="color">
-		<option value="r">Red</option>
-		<option value="g">Green</option>
-		<option value="b" selected>Blue</option>
-	</select><br><br><br>
-
-	<form>
-		<label>Vehicle type:</label>
-		<select name="Vehicle">Vehicle
-			<option value="car">Car</option>
-			<option value="bus">Bus</option>
-		</select>
-	</form><br><br><br>
-
-	<form>
-		<label for="s1">Vehicle Typ</label>
-		<select name="Vehicle" id="s1">
-			<option value="car">Car</option>
-			<option value="bus">Bus</option>
-		</select>
-	</form><br><br><br>
-
-	<form>
-		<!-- requires the user
-			 to enter a valid email -->
-		<label for="email">
-			 Email add:</label>
-		<input type="email" id="email"><br>
-		<!-- hides sensitive information -->
-		<label for="pass">
-			Password :</label>
-		<input type="password" id="pass"><br>
-		<!-- requires the user to 
-			enter a phone number -->
-		<label for="tel">Telephone:</label>
-		<input type="tel" id="tel"><br>
-	  </form>
+		<h2>Order now!</h2>
+		<form>
+			<label>Size:</label>
+			<select>
+				<option value="size">Small</option>
+			</select>
+			
+			<label>Color:</label>
+			<select>
+				<option value="color">Red</option>
+			</select><br><br>
+			<label for="na">Name:</label>
+			<input type="text" id="na"><br><br>
+			<label for="em">Email:</label>
+			<input type="text" id="em"><br><br>
+			<input type="submit">
+		</form>
 </body>
 </html>
