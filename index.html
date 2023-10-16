@@ -7,64 +7,41 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 	<body>
-			<table style="border: solid;">
-				<tr>
-					<td>Cell 1</td>
-					<td>Cell 2</td>
-				</tr>
-				<tr>
-					<td>Cell 3</td>
-					<td>Cell 4</td>
-				</tr>
-			</table><br><br><br>
+		<header>
+			<h1 style="background-color: #ffca3a;">New Awesome Product</h1>
+		</header> 
+		<main>
+			<p>Introducing out <b>latest producto,</b> designed to make your life easier and more efficient</p>
 
-			<table>
-				<tr>
-					<th>Name</th><th>Age</th>
-				</tr>
-				<tr>
-					<td>Amy</td><td>38</td>
-				</tr>
-			</table><br><br><br>
+			<li>Feature 1</li>
+			<li>Feature 2</li>
+			<li>Feature 3</li>
 
-			<table style="border:solid">
-				<tr>
-				  <th style="border:solid">Month</th>
-				  <th style="border:solid">
-				  Budget($)</th>
-				</tr>
-				<tr>
-				  <td style="border:solid">
-				  January</td>
-				  <td style="border:solid">
-				  500</td>
-				</tr>
-				<tr>
-				  <td style="border:solid">
-				  February</td>
-				  <td style="border:solid">400</td>
-				</tr>
-				<tr>
-				  <td style="border:solid"
-				  colspan="2">Sum: 900</td>
-				</tr>
-			  </table><br><br><br>
+			<h2>Order now!</h2>
 
-			  <table style="border:solid">
-				<tr>
-				  <th style="border:solid">Month</th>
-				  <th style="border:solid">Budget($)</th>
-				  <th style="border:solid">Savings($)</th>
-				</tr>
-				<tr>
-				  <td style="border:solid">January</td>
-				  <td style="border:solid">500</td>
-				  <td style="border:solid" rowspan="2">150</td>
-				</tr>
-				<tr>
-				  <td style="border:solid">February</td>
-				  <td style="border:solid">400</td>
-				</tr>
-			  </table> 
+			<img src="https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge_2x.jpg" alt="">
+
+			<form>
+				<label for="s1">Size</label>
+				<select name="size" id="s1">
+					<option value="size">Small</option>
+				</select>
+				<label for="s1">Color</label>
+				<select name="Color" id="s1">
+					<option value="color">Red</option>
+				</select>
+			</form><br>
+			
+			<form>
+				<label for="na">Name:</label>
+				<input type="text" id="na"><br><br>
+				<label for="em">Email:</label>
+				<input type="text" id="em"><br>
+			</form><br>
+			<button onclick="alert('Order confirmed!')" style="border: none; border-radius: 5px;">Submit</button>
+		</main>
+		<footer style="background-color: #ffca3a;">
+			<p>Made with <3</p>
+		</footer>
 	</body>
 </html>
