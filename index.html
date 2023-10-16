@@ -7,12 +7,64 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 	<body>
-			<p class="s1">Texto de prueba</p>
-			<h2 style="border:dotted">dotted</h2>
-			<h2 style="border:dashed">dashed</h2>
-			<h2 style="border:solid">solid</h2>
-			<h2 style="border:double">double</h2>
-			<h2 style="border:inset">inset</h2>
-			<h2 style="border:outset">outset</h2> 
+			<table style="border: solid;">
+				<tr>
+					<td>Cell 1</td>
+					<td>Cell 2</td>
+				</tr>
+				<tr>
+					<td>Cell 3</td>
+					<td>Cell 4</td>
+				</tr>
+			</table><br><br><br>
+
+			<table>
+				<tr>
+					<th>Name</th><th>Age</th>
+				</tr>
+				<tr>
+					<td>Amy</td><td>38</td>
+				</tr>
+			</table><br><br><br>
+
+			<table style="border:solid">
+				<tr>
+				  <th style="border:solid">Month</th>
+				  <th style="border:solid">
+				  Budget($)</th>
+				</tr>
+				<tr>
+				  <td style="border:solid">
+				  January</td>
+				  <td style="border:solid">
+				  500</td>
+				</tr>
+				<tr>
+				  <td style="border:solid">
+				  February</td>
+				  <td style="border:solid">400</td>
+				</tr>
+				<tr>
+				  <td style="border:solid"
+				  colspan="2">Sum: 900</td>
+				</tr>
+			  </table><br><br><br>
+
+			  <table style="border:solid">
+				<tr>
+				  <th style="border:solid">Month</th>
+				  <th style="border:solid">Budget($)</th>
+				  <th style="border:solid">Savings($)</th>
+				</tr>
+				<tr>
+				  <td style="border:solid">January</td>
+				  <td style="border:solid">500</td>
+				  <td style="border:solid" rowspan="2">150</td>
+				</tr>
+				<tr>
+				  <td style="border:solid">February</td>
+				  <td style="border:solid">400</td>
+				</tr>
+			  </table> 
 	</body>
 </html>
